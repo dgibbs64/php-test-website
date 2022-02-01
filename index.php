@@ -36,25 +36,6 @@
     <link href="starter-template.css" rel="stylesheet">
   </head>
   <body>
-  <nav class="navbar navbar-expand navbar-dark bg-dark" aria-label="Second navbar example">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Always expand</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarsExample02">
-        <ul class="navbar-nav me-auto">
-          <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.php">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="ip.php">PHP Superglobals</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
 <div class="col-lg-8 mx-auto p-3 py-md-5">
   <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
     <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
@@ -66,7 +47,6 @@
   </header>
 
   <main>
-    <h1>PHP Test Website</h1>
     <p>If php info loads below php is working.</p>
     <?php phpinfo(); ?>
   </main>
