@@ -46,10 +46,10 @@
       <div class="collapse navbar-collapse" id="navbarsExample02">
         <ul class="navbar-nav me-auto">
           <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+            <a class="nav-link" aria-current="page" href="index.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="ip.php">IP Address</a>
+            <a class="nav-link active" href="ip.php">IP Address</a>
           </li>
         </ul>
         <form>
@@ -67,9 +67,9 @@
   </header>
 
   <main>
-    <h1>PHP Test Website</h1>
-    <p>If php info loads below php is working</p>
-    <?php phpinfo(); ?>
+    <h1>PHP IP Address</h1>
+    <p>IP address of Client using PHP</p>
+    <?php $_SERVER['REMOTE_ADDR'] ?>
   </main>
   <footer class="pt-5 my-5 text-muted border-top">
     PHP Test
