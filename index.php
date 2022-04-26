@@ -7,14 +7,9 @@
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
     <title>PHP Test Website</title>
-
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/starter-template/">
-
-
-
     <!-- Bootstrap core CSS -->
 <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -30,8 +25,6 @@
         }
       }
     </style>
-
-
     <!-- Custom styles for this template -->
     <link href="starter-template.css" rel="stylesheet">
   </head>
@@ -48,16 +41,15 @@
 
   <main>
     <p>If php info loads below php is working.</p>
+    PHP Version: <?php phpversion() ?><br>
+    Server Software: <?php $_SERVER['SERVER_SOFTWARE'] ?>
+    <br>
     <?php phpinfo(); ?>
   </main>
   <footer class="pt-5 my-5 text-muted border-top">
     PHP Test Website
   </footer>
 </div>
-
-
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-
-
   </body>
 </html>
